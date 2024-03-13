@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://afflib.org/tcpflow/' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Feature Extraction</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>TCPFLOW</program>
+    <version>1.4.5</version>
+    <build_environment>
+      <compiler>7.3.0 (7.3.0)</compiler>
+      <CPPFLAGS>-pthread -I/usr/local/include -I/usr/local/include -Wdate-time -D_FORTIFY_SOURCE=2 -DUTC_OFFSET=+0000 </CPPFLAGS>
+      <CFLAGS>-g   -pthread -g -O3 -fdebug-prefix-map=/build/tcpflow-VEUeIu/tcpflow-1.4.5+repack1=. -fstack-protector-strong -Wformat -Werror=format-security -MD -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes</CFLAGS>
+      <CXXFLAGS>-g -pthread -g -O3 -fdebug-prefix-map=/build/tcpflow-VEUeIu/tcpflow-1.4.5+repack1=. -fstack-protector-strong -Wformat -Werror=format-security -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Weffc++ -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Wstrict-null-sentinel -Weffc++ </CXXFLAGS>
+      <LDFLAGS>-L/usr/local/lib -L/usr/local/lib -Wl,-Bsymbolic-functions -Wl,-z,relro</LDFLAGS>
+      <LIBS>-lpcap -lcairo -lfontconfig -lfreetype -lpixman-1 -lexpat  -lcrypto -lssl -lcrypto -ldl -lz </LIBS>
+      <compilation_date>2019-04-24T13:07:55</compilation_date>
+      <library name="boost" version="106501"/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>5.4.0-150-generic</os_release>
+      <os_version>#167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023</os_version>
+      <host>Workstation</host>
+      <arch>x86_64</arch>
+      <command_line>tcpflow -r /home/zamora/Sys3_8.1/PCAP/fetch/HOA8.1.pcap -o /home/zamora/Sys3_8.1/PCAP/extract/</command_line>
+      <uid>1000</uid>
+      <start_time>2024-03-13T09:16:32Z</start_time>
+    </execution_environment>
+  </creator>
+  <configuration>
+  </configuration>
+  <tdelta>0</tdelta>
+  <configuration>
+    <fileobject>
+      <filename>/home/zamora/Sys3_8.1/PCAP/extract//185.125.190.098.00080-010.000.002.015.39888</filename>
+      <filesize>185</filesize>
+      <tcpflow startime='2024-03-13T17:06:48.228654Z' endtime='2024-03-13T17:06:48.543227Z' src_ipn='185.125.190.98' dst_ipn='10.0.2.15' mac_daddr='08:00:27:01:7b:11' mac_saddr='52:54:00:12:35:02' packets='4' srcport='80' dstport='39888' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/zamora/Sys3_8.1/PCAP/extract//010.000.002.015.39888-185.125.190.098.00080</filename>
+      <filesize>87</filesize>
+      <tcpflow startime='2024-03-13T17:06:47.887196Z' endtime='2024-03-13T17:06:48.544110Z' src_ipn='10.0.2.15' dst_ipn='185.125.190.98' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:01:7b:11' packets='5' srcport='39888' dstport='80' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/zamora/Sys3_8.1/PCAP/extract//185.125.188.059.00443-010.000.002.015.40440</filename>
+      <filesize>39813</filesize>
+      <tcpflow startime='2024-03-13T17:07:01.734422Z' endtime='2024-03-13T17:07:05.625238Z' src_ipn='185.125.188.59' dst_ipn='10.0.2.15' mac_daddr='08:00:27:01:7b:11' mac_saddr='52:54:00:12:35:02' packets='25' srcport='443' dstport='40440' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/zamora/Sys3_8.1/PCAP/extract//010.000.002.015.40440-185.125.188.059.00443</filename>
+      <filesize>8909</filesize>
+      <tcpflow startime='2024-03-13T17:07:01.429044Z' endtime='2024-03-13T17:07:05.625277Z' src_ipn='10.0.2.15' dst_ipn='185.125.188.59' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:01:7b:11' packets='25' srcport='40440' dstport='443' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/zamora/Sys3_8.1/PCAP/extract//185.125.190.028.00443-010.000.002.015.41692</filename>
+      <filesize>4143215</filesize>
+      <tcpflow startime='2024-03-13T17:06:33.852578Z' endtime='2024-03-13T17:06:53.331466Z' src_ipn='185.125.190.28' dst_ipn='10.0.2.15' mac_daddr='08:00:27:01:7b:11' mac_saddr='52:54:00:12:35:02' packets='265' srcport='443' dstport='41692' family='2' />
+    </fileobject>
+  </configuration>
+  <summary />
+  <open_fds_at_end>3</open_fds_at_end>
+  <max_open_flows>3</max_open_flows>
+  <total_flows>5</total_flows>
+  <flow_map_size>3</flow_map_size>
+  <total_packets>324</total_packets>
+  <rusage>
+    <utime>0.010738</utime>
+    <stime>0.005369</stime>
+    <maxrss>9720</maxrss>
+    <minflt>1284</minflt>
+    <majflt>22</majflt>
+    <nswap>0</nswap>
+    <inblock>3048</inblock>
+    <oublock>8232</oublock>
+    <clocktime>0.003514</clocktime>
+  </rusage>
+</dfxml>
